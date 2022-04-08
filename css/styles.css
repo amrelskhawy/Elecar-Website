@@ -372,14 +372,59 @@ img {
 }
 
 /*=============== BUTTON ===============*/
-/* .button {
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
 
-} */
+.button:hover {
+  background-color: var(--first-color-alt);
+}
 
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 6rem;
 }
+
+.about__group {
+  position: relative;
+}
+.about__img {
+  width: 310px;
+  border-radius: .5rem;
+}
+
+.about__card {
+  width: 180px;
+  position: absolute;
+  right: 0;
+  bottom: -2.5rem;
+  background-color: hsla(0, 10%, 100%, 0.1);
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(16px);
+  text-align: center;
+}
+.about__card-title {
+  margin-bottom: 0.5rem;
+}
+.about__card-description {
+  font-size: var(--smaller-font-size);
+}
+.about__title {
+  text-align: initial;
+  margin-bottom: 2rem;
+}
+
+.about__description{
+  margin-bottom: 2rem;
+}
+
 
 /*=============== POPULAR ===============*/
 
