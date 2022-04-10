@@ -46,6 +46,7 @@
   }
 }
 
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -434,17 +435,16 @@ img {
 /*=============== POPULAR ===============*/
 .popular__container {
   padding-top: 1rem;
-  /* display: flex;
-  justify-content: center; */
-
 }
+
+
 .popular__card {
   position: relative;
   width: 238px;
   background-color: var(--container-color);
   padding: 2rem 1.5rem 1rem ;
-  margin-bottom: 3.5rem;
   border-radius: 1.25rem;
+  margin-bottom: 3.5rem;
   overflow: hidden;
 }
 
@@ -471,7 +471,8 @@ img {
 }
 
 .popular__img {
-  width: 180px;
+  width: 90%;
+  /* width: 180px; */
   margin: .75rem 0 1.25rem 1.5rem;
   transition: .3s;
 }
@@ -509,7 +510,9 @@ img {
   transform: translateY(-.25rem);
 }
 /* Swiper class */
-
+.swiper-pagination-bullet {
+  background-color: var(--text-color);
+}
 
 /*=============== FEATURES ===============*/
 
