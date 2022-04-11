@@ -72,6 +72,23 @@ LinkFeatured.forEach(item => {
 })
 
 /*=============== SHOW SCROLL UP ===============*/
+let scrollUp = document.getElementById('scrollup')
+window.addEventListener('scroll', ()=> {
+    if (window.scrollY >= 350 ) {
+        scrollUp.style.bottom = "3rem";
+    } else {
+        scrollUp.style.bottom = "-30%";
+    }
+}) 
+
+scrollUp.addEventListener('click', (e)=> {
+    e.preventDefault()
+    scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
+})
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 

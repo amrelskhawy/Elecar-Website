@@ -63,6 +63,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  position: relative;
 }
 
 h1, h2, h3 {
@@ -830,10 +831,39 @@ img {
 
 
 /*=============== SCROLL BAR ===============*/
-
-
+::-webkit-scrollbar {
+  width: .6rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(219, 4%, 32%);
+}
 /*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  padding: .45rem;
+  background-color: hsla(0, 0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  bottom: -30%;
+  right: 2rem ;
+  color: var(--white-color);
+  z-index: var(--z-tooltip);
+  border-radius: .5rem;
+  transition: .4s;
+}
 
+.scrollup:hover {
+  transform: translateY(-.25rem);
+}
 
 /* Show Scroll Up*/
 
