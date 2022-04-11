@@ -29,12 +29,11 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
-
 /*=============== POPULAR SWIPER ===============*/
 let swiperPopular = new Swiper(".popular__container", {
     loop: true,
     spaceBetween: 24,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     grabCursor: true,
     pagination: {
         el: ".swiper-pagination",
@@ -47,12 +46,30 @@ let swiperPopular = new Swiper(".popular__container", {
         1024: {
             spaceBetween: 48,
         },
-      },
-  });
+    },
+});
 
 /*=============== MIXITUP FILTER FEATURED ===============*/
+let mixer = mixitup('.featured__content', {
+    selectors: {
+        target: '.featured__card'
+    },
+    animation: {
+        duration: 200,
+    }
+});
 
 /* Link active featured */
+let LinkFeatured = document.querySelectorAll('.featured__item')
+
+LinkFeatured.forEach(item => {
+    item.addEventListener('click' , () => {
+        LinkFeatured.forEach(ele => {
+            ele.classList.remove('active')
+        })
+        item.classList.add('active')
+    })
+})
 
 /*=============== SHOW SCROLL UP ===============*/
 
