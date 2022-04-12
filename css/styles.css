@@ -210,7 +210,10 @@ img {
   font-weight: var(--font-medium);
   transition: 0.3s; 
 }
+.nav__link {
+  font-size: var(--normal-font-size);
 
+}
 
 .nav__link:hover {
   color: var(--first-color);
@@ -629,9 +632,15 @@ img {
 }
 
 .featured__content {
-  grid-template-columns: 228px;
+  grid-template-columns: repeat(3, 228px);
   row-gap: 2.5rem;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .featured__content {
+    grid-template-columns: 228px;
+  }
 }
 
 .featured__card {
