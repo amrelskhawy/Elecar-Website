@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Elecar Car Store
+it's a Car Store Website that shows cars and their prices
+## Features
+1. it's resposive for small, medium and large screens
+2. that project used Js Libraries like swiper and mixitup
+3. Cool Colors and Fonts
 
-You can use the [editor on GitHub](https://github.com/amrelskhawy/Elecar-Website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**You can Check the Live Demo On : [Link](https://amrelskhawy.github.io/Elecar-Website/)**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Screenshots Fron the project
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amrelskhawy/Elecar-Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://user-images.githubusercontent.com/68334383/172495220-cf690e09-a6c3-4c11-9eae-fd62d7be97b4.png)
